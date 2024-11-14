@@ -18,6 +18,8 @@ public class BankCustTest {
 
         }catch (InsufficientBalanceException e){
             System.out.println("transfer failed"+e.getMessage());
+
+            //
         }
 
 
